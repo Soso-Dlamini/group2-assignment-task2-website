@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculate your Pawsitive Pet Academy course fees.">
+    <title>Pawsitive Pet Academy | Calculate Fees</title>
+
+    <link rel="sheetstyle" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Pawsitive Pet Academy</h1>
+        <p>Calculate Your Course Fees</p>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="six-month-courses.html">Six-Month Courses</a> |
+            <a href="six-week-courses.html">Six-Week Courses</a> |
+            <a href="calculate-fees.html">Calculate Fees</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Course Fee Calculator</h2>
+
+        <p>
+            Select the courses you are interested in to request a quotation.
+        </p>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Personal Details</legend>
+
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Select Your Courses</legend>
+
+                <input type="checkbox" id="obedience" name="course" value="canine-obedience">
+                <label for="obedience">Canine Obedience Training</label>
+                <br>
+
+                <input type="checkbox" id="grooming" name="course" value="pet-grooming">
+                <label for="grooming">Pet Grooming</label>
+                <br>
+
+                <input type="checkbox" id="behaviour" name="course" value="animal-behaviour">
+                <label for="behaviour">Animal Behaviour</label>
+                <br>
+
+                <input type="checkbox" id="business" name="course" value="pet-business">
+                <label for="business">Pet Business Management</label>
+                <br>
+
+                <input type="checkbox" id="puppy" name="course" value="puppy-care">
+                <label for="puppy">Puppy Care</label>
+                <br>
+
+                <input type="checkbox" id="first-aid" name="course" value="pet-first-aid">
+                <label for="first-aid">Pet First Aid</label>
+                <br>
+
+                <input type="checkbox" id="dog-walking" name="course" value="dog-walking">
+                <label for="dog-walking">Basic Dog Walking</label>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Request Information</legend>
+
+                <label for="message">Additional Information:</label>
+                <br>
+
+                <textarea id="message" name="message" rows="6" cols="40"></textarea>
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Request Quotation</button>
+            <button type="reset">Clear Form</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pawsitive Pet Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
