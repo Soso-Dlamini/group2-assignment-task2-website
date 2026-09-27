@@ -37,4 +37,4 @@ This project is a website for **Pawsitive Pet Academy**, a pet care education an
 * Siyamthanda Ngcobo
 
 **Module:** XHAW5112
-**Assessment:** Part 1
+**Assessment:** Part 2
