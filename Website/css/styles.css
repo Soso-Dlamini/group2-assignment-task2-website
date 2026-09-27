@@ -1,0 +1,280 @@
+
+/* Pawsitive Pet Academy
+   Main Stylesheet*/
+
+
+/* Element selector and CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+
+/* Header */
+
+header, footer {
+    background-color: #245f7a;
+    color: white;
+    text-align: center;
+}
+
+.logo-area {
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo-area p {
+    color: #6abf69;
+    font-weight: bold;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #1e4e64;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #f4a261;
+}
+
+
+/* Hero section */
+
+.hero {
+    background-image:
+        linear-gradient(
+            rgba(20, 63, 80, 0.7),
+            rgba(20, 63, 80, 0.7)
+        );
+
+    background-size: cover;
+    background-position: center;
+
+    padding: 80px 10%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+    color: white;
+}
+
+.hero h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero h2 span {
+    color: #6abf69;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #e76f51;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: #245f7a;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+/* Hero image */
+
+.hero-image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* General sections */
+
+section {
+    padding: 60px 8%;
+}
+
+section h2 {
+    color: #245f7a;
+    margin-bottom: 15px;
+}
+
+.section-label {
+    color: #e76f51;
+    font-weight: bold;
+}
+
+
+/* Welcome section */
+
+.welcome-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.welcome-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Course section */
+
+.courses-section {
+    background-color: #f4f9fa;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.course-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px #cccccc;
+}
+
+.course-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.course-content {
+    padding: 15px;
+}
+
+.course-content h3 {
+    color: #245f7a;
+}
+
+.course-content a {
+    color: #e76f51;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.course-content a:hover {
+    color: #245f7a;
+}
+
+
+/* Why choose us */
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    color: #245f7a;
+}
+
+
+/* Call to action */
+
+.cta-section {
+    background-color: #245f7a;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-section h2 {
+    color: white;
+}
+
+
+/* Footer */
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 30px;
+    padding: 40px 8%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f4a261;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ffffff;
+    padding: 15px;
+}
+/* Course Images */
+.course-images {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
